@@ -22,6 +22,6 @@ class Doctor
   end 
   
   def patients
-    self.appointments.collect {|appt| appt.patient binding.pry}
+    self.appointments.collect {|appt| appt.patient}
   end 
 end 
